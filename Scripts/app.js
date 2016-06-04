@@ -1,3 +1,7 @@
+/*authorname Tarun Rana
+Student no-300871205
+course- COMP125*/
+
 var texts = [
     "Tarun Rana",
     "My name is Tarun Rana I previously studied at B.C.M School in ludhiana.I am a student in the software engineering technician program at centennial college.Previously I studied at B.C.M School in Ludhiana,Punjab,India.I drink a lot of water because they said it is very useful for your body.My preffered brand or mobile devices is Apple",
