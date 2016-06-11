@@ -37,3 +37,32 @@ var texts = [
     }
     
 })();
+
+
+  //create  a link for sending form
+   var sendButton = document.getElementById("sendButton");
+   
+  /* sendButton.addEventListener("click", sendButtonClick);
+   
+   function sendButtonClick(event) {
+       console.log("pressed!");
+   }*/
+   // creating link to all the field
+   var FirstName = document.getElementById("firstName");
+   var LastName = document.getElementById("lastName");
+   var email = document.getElementById("email");
+   var Contact = document.getElementById("contactNumber");
+   var Message = document.getElementById("message");
+
+   //a refrence to form
+   var contactForm = document.getElementById("Form");
+    
+    contactForm.addEventListener("submit", function(event){
+        event.preventDefault();
+        console.log("First Name: " + FirstName.value);
+        console.log("Last Name: " + LastName.value);
+        console.log("Email: " + email.value);
+        console.log("Contact Number: " + Contact.value);
+        console.log("Message: " + Message.value);
+        contactForm.reset();
+    });
